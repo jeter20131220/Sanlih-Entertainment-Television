@@ -1,0 +1,80 @@
+.input-group0-border2{
+border: 1px solid #000;
+}
+
+#chartDataLoading{
+    display: none;
+}
+.x-axis-labels {
+    text-align: center;
+}
+
+.x-axis-labels span {
+
+    margin-right:10px ;
+    display: inline-block;
+    color: #58493F; /* Change the color of the text */
+    font-weight: bold;
+    font-size: 24px;
+    text-shadow: 
+    -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff; /* Apply text stroke effect */
+}
+
+.chart_background{
+background: #CECEDB;
+}
+
+.chartjs-title {
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: #fff;
+}
+
+.chart_box{
+    padding: 15px 30px;
+}
+
+.chart_box2{
+    border-radius: 15px;
+
+    /* background: rgba(229, 229, 234,0.6); */
+}
+
+.chart_title{
+    font-size: 24px;
+    color: #fff; /* 文字颜色 */
+    text-shadow: 
+        -1px -1px 0 #584B3D,  
+        1px -1px 0 #584B3D,
+        -1px 1px 0 #584B3D,
+        1px 1px 0 #584B3D; /* 修改为指定颜色 */
+    font-weight: bold; 
+    letter-spacing: 8px;
+}
+
+.chart_box2{
+    /* padding: 15px; */
+}
+
+.chartSetting{
+    /* margin-bottom: 30px; */
+}
+
+.chartSettingBox{
+    height: 900px;
+}
+
+#textToChart{
+    width: 400px;
+    height: 200px;
+}
+.sidebarToggle{
+    display: none;
+}
+
+.templateImg{
+    cursor: pointer;
+    object-fit: cover;
+}
